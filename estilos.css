@@ -220,7 +220,7 @@ span{
 #que-esperas a:hover{
   color: black;
   transition: 1s;
-  transform: scaleX(1.1);
+  transform: scale(1.1);
   display: inline-block;
 }
 
