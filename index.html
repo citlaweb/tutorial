@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Borrador Web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
+
+    </script>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no" >
+  </head>
+
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="menu">
+          <p>MI BORRADOR WEB</p>
+          <img class="menu-icon" src="menu.png">
+          <nav>
+            <ul class="lista">
+              <li>sobre mi</li>
+              <li>tutorial</li>
+              <li>tecnologias</li>
+              <li>carousel javascript</li>
+              <li>whatsapp y responsive design</li>
+              <li>contacto</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="titular">
+          <h1>Mi borrador web</h1>
+          <h2>apuntes para crear paginas web</h2>
+          <a href="#tutorial">VER TUTORIAL</a>
+        </div>
+      </div>
+    </header>
+
+    <!--sobre mi -->
+    <section>
+      <h3>sobre mi</h3>
+      <div class="contenedor-sobremi">
+        <img class="imagen-sobremi" src="yo.png" alt="mi borrador web" title="mi borrador web">
+        <div class="contenedor-parrafo-y-boton">
+           <p>Mi nombre es citlalli y estoy tomando cursos para crear paginas web, me gusta mucho lo que es el diseño y como se van formando los sitios web con codigo.</p>
+           <p>En esta web apuntare cosas que me van sirviendo de ayuda para crear webs, asi tendre todo lo que necesite siempre en linea.</p>
+           <p>Los cursos que recomiendo son de Jonathan Lifschitz y puedes escontrarlo en udemy, o en youtube como JL Web, tambien tiene redes sociales.</p>
+           <a href="#">ver mis trabajos</a>
+        </div>
+      </div>
+    </section>
+
+    <!--servicios-->
+    <section id="tutorial">
+
+        <h3>Tutorial</h3>
+        <div class="contenedor-servicios">
+            <div class="servicio violeta">
+              <h4>inicia aqui</h4>
+              <p>descargar el programa atom, crear una carpeta, arrastrar la carpeta al programa atom, crear los archivos html y css</p>
+              <img src="monitor.png">
+            </div>
+            <div class="servicio celeste">
+              <h4>html y css basico</h4>
+              <p>etiquetas html, head, body, doctype, lang, meta charset, title. vincular los estilos etiqueta link, </p>
+              <img src="monitor.png">
+            </div>
+            <div class="servicio violeta">
+              <h4>titulo y menu</h4>
+              <p>etiquetas nuevas: display flex, justify content space beetween, font size, list style, margin right, align items...agregar el tipo de fuente desde google fonts, la que tengo es poppins</p>
+              <img src="monitor.png">
+            </div>
+            <div class="servicio celeste">
+              <h4>titular y sub + boton</h4>
+              <p>etiquetas nuevas: h1, a, text-decoration none, margin-top, background, padding, margin-bottom, color, header, height 100vh, background-size cover, max width, width, margin auto. recomendacion como ayuda utilizar el modo consola desde el navegador.</p>
+              <img src="monitor.png">
+            </div>
+              <div class="servicio violeta">
+              <h4>comentarios</h4>
+              <p>en css /*comenta*/ y en html es signo menor que <, luego signo de exclamacion final !, linea linea --, comenta, linea linea--, signo mayor que >.</p>
+              <img src="monitor.png">
+            </div>
+            <div class="servicio celeste">
+              <h4>cada seccion</h4>
+              <p>sobre mi: section, h3,img alt title, font-weight, justify-content space around, display inline-block. servicios: flex-wrap wrap, border radius, float right, height. porque:line-height. blog: font awesome cdn, copiar el primer enlace y ponerlo en head en un script. en la web ir a icons-buscar arrow-copiar el codigo html a un lado de el leer mas. box-shadow
+              queesperas:background:linear-gradient. a:hover. transition y transform.</p>
+              <img src="monitor.png">
+            </div>
+        </div>
+
+          </section>
+
+        <section>
+          <div class="contenedor">
+            <h3>Tecnologias</h3>
+
+          <div class="owl-carousel">
+              <div> <img src="foto1.png"> </div>
+              <div> <img src="foto2.png"> </div>
+            <div> <img src="foto3.png"> </div>
+            <div> <img src="foto4.png"> </div>
+            <div> <img src="foto5.png"> </div>
+          </div>
+        </section>
+
+<section>
+  <div class="contenedor">
+    <h3>carousel de javascript</h3>
+    <div class="contenedor-porque">
+
+      <div class="contenedor-porquesingular">
+        <img src="host.png">
+        <h4>owlcarousel</h4>
+        <p>buscar en google owlcarousel, descargar el archivo, crear una carpeta nueva con el nombre owlcarousel,
+          copiar los 3 archivos siguientes:owl.carousel.min, owl.theme.default.min y owl.carousel.min este es js</p>
+      </div>
+
+      <div class="contenedor-porquesingular">
+        <img src="host.png">
+        <h4>jquery</h4>
+        <p>buscar en google jquery, clic en el que dice compressed, ctrl + a luego ctrl + c, desde atom creo nuevo archivo,
+         y lo guardo como jquery.min.js</p>
+      </div>
+
+      <div class="contenedor-porquesingular">
+        <img src="host.png">
+        <h4>codigos</h4>
+        <p>desde la web de owlcarousel ir a docs, installation, copiar codigo css y lo pego en head. copiar codigo js y verifico la ruta
+        esto lo pego antes de cerrar el body. copiar codigo html y creo el section, cambio texto por imagenes. ir a demos, basic copiar codigo setup
+        en un script despues del codigo js, cambio codigo de items de mostrar en pc por el numero 4. agregar codigo css para dar estilo a las flechas.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section id="blog">
+   <div class="contenedor">
+     <h3>whatsapp y responsive design</h3>
+     <div class="contenedor-publicaciones">
+       <div class="publicacion">
+         <img src="w.png">
+         <h4>whatsapp fijo</h4>
+         <p>buscar en google whatsapp html link - copiar el que dice use - background none, position fixed, top, right (top y right se usan con position)</p>
+         <a href="#">leer mas <i class="fas fa-arrow-right"></i></a>
+       </div>
+
+       <div class="publicacion">
+         <img src="r.jpg">
+         <h4>responsive design</h4>
+         <p>agregar etiqueta meta antes de cerrar el head, crear estilos con etiqueta @media, etiqueta nueva flex-direction:column, display none y block</p>
+         <a href="#">leer mas <i class="fas fa-arrow-right"></i></a>
+       </div>
+
+     </div>
+
+   </div>
+</section>
+
+<section id="que-esperas">
+  <div class="contenedor">
+    <h3>pagina web creada en el año 2020, como pasatiempo en mi tiempo libre.</h3>
+    <a href="#">charlemos</a>
+  </div>
+</section>
+
+<section id="whatsapp">
+  <a href="https://wa.me/15551234567">
+    <img src="whatsapp.png">
+  </a>
+</section>
+
+
+
+
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script>
+
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+   })
+
+      $('.menu-icon').click(function(){
+      $('header nav').slideToggle();
+    })
+
+
+    </script>
+
+  </body>
+</html>
